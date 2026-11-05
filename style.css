@@ -62,8 +62,8 @@ ul, a{
     font-size: 20px;
 }
 
-button{
-    width: 200px;
+.register{
+    width: 150px;
     padding: 15px 0px;
     background: #971616;
     border: 0;
@@ -136,11 +136,11 @@ button{
     justify-content: center;
     /* height: 300px;
     width: auto; */
-    padding: 50px 100px;
+    padding: 100px;
 }
 
 .box {
-    background:#7a0000;
+    background:#971616;
     display: flex;
     /* height: 100px; */
     width: 600px;
@@ -152,6 +152,7 @@ button{
 .left {
     font-size: 24px;
     font-weight: 300;
+    color: #ebedee;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
@@ -159,6 +160,12 @@ button{
 
 .butt2{
     margin-right: 50px;
+    /* color: white; */
+    font-weight: 500;
+    background:#7a0000;
+    border: 2px solid black;
+    
+    border-radius: 12px;
 }
 
 .info {
@@ -166,7 +173,9 @@ button{
 }
 
 .footer {
-    
+    text-align: center;
+    height: 20px;
+    padding: 20px;
 }
 
 
