@@ -1,15 +1,17 @@
 body {
     font-family: Roboto;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .header {
     height: 72px;
     display: flex;
-    background: #1F2937;
+    background: #010305;
     color: #F9FAF8;
     justify-content: space-around;
     align-items: center;
@@ -24,22 +26,21 @@ ul, a{
     list-style-type: none;
     text-decoration: none;
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
     gap: 32px;
     font-size: 18px;
     color: #E5E7EB;
     padding: 0;
+    font-weight: 500px;
 }
 
 .hero{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    background: #1F2937;
-    height: 400px;
-;
-
+    background: #010305;
+    height: 500px;
+    gap: 200px;
 }
 
 .left{
@@ -62,13 +63,55 @@ ul, a{
 button{
     width: 100px;
     padding: 10px;
-    background: #3882F6;
+    background: #971616;
     border: 0;
     color: white;
+    border-radius: 12px;
 }
 
-img{
+.elster{
     width:500px;
-    height: 250px;
+    height: 300px;
 }
+
+.header2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    background: #971616;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background: #971616;
+    padding: 50px;
+    gap: 50px;
+}
+
+.artifacts{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: auto;
+    color: white;
+    
+    
+}
+
+.key{
+    border: 5px solid white;
+    border-radius: 12px;
+    
+}
+
+.quote {
+    background: #971616;
+    font-style: italian
+}
+
+
+
 
